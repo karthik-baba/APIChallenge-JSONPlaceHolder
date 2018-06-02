@@ -3,6 +3,11 @@ Pre-requisites
 * Maven
 * Java 1.8
 
+Framework Used
+--------------
+
+REST-Assured - https://github.com/rest-assured/rest-assured
+
 To Run the Tests
 -----------------
 From command prompt, **mvn clean compile test-compile test**  
