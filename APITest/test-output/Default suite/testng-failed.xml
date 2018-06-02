@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.api.tests.PostsResourceTests">
+        <methods>
+          <include name="checkCreatePost"/>
+          <include name="checkCreatedRecordIfPresent"/>
+          <include name="createPostWithInvalidJson"/>
+          <include name="teardown"/>
+          <include name="updateRecord"/>
+          <include name="setup"/>
+          <include name="checkUpdatedRecord"/>
+          <include name="checkPartiallyUpdatedData"/>
+          <include name="checkPartialUpdate"/>
+          <include name="checkDeletedRecord"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.api.tests.PostsResourceTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
