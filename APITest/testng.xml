@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="API-Challenge" verbose="1">
-	<test name="PostResource">
+	<test name="PostResourceTests">
 		<classes>
 			<class name="com.api.common.TestConfig" />
 			<class name="com.api.tests.PostResourceTests" />
 		</classes>
 	</test>
 
-	<test name="CommentsResource">
+	<test name="CommentsResourceTests">
 		<classes>
 			<class name="com.api.common.TestConfig" />
 			<class name="com.api.tests.CommentsResourceTests" />

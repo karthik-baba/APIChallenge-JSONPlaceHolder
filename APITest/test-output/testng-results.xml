@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="5" total="15" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14217" started-at="2018-06-02T10:39:38Z" finished-at="2018-06-02T10:39:52Z">
+  <suite name="Default suite" duration-ms="15123" started-at="2018-06-02T11:03:12Z" finished-at="2018-06-02T11:03:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14217" started-at="2018-06-02T10:39:38Z" finished-at="2018-06-02T10:39:52Z">
+    <test name="Default test" duration-ms="15123" started-at="2018-06-02T11:03:12Z" finished-at="2018-06-02T11:03:27Z">
       <class name="com.api.tests.PostsResourceTests">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="setup" is-config="true" duration-ms="16" started-at="2018-06-02T16:09:38Z" finished-at="2018-06-02T16:09:38Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="setup" is-config="true" duration-ms="20" started-at="2018-06-02T16:33:12Z" finished-at="2018-06-02T16:33:12Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="init" is-config="true" duration-ms="354" started-at="2018-06-02T16:09:38Z" finished-at="2018-06-02T16:09:39Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="init" is-config="true" duration-ms="433" started-at="2018-06-02T16:33:12Z" finished-at="2018-06-02T16:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkCreatePost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkCreatePost" duration-ms="2135" started-at="2018-06-02T16:09:39Z" finished-at="2018-06-02T16:09:41Z">
+        <test-method status="PASS" signature="checkCreatePost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkCreatePost" duration-ms="2494" started-at="2018-06-02T16:33:12Z" finished-at="2018-06-02T16:33:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCreatePost -->
-        <test-method status="PASS" signature="checkDeletePost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkDeletePost" duration-ms="1939" started-at="2018-06-02T16:09:41Z" finished-at="2018-06-02T16:09:43Z">
+        <test-method status="PASS" signature="checkDeletePost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkDeletePost" duration-ms="1209" started-at="2018-06-02T16:33:15Z" finished-at="2018-06-02T16:33:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeletePost -->
-        <test-method status="FAIL" signature="checkDeletedRecord()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkDeletedRecord" duration-ms="1402" started-at="2018-06-02T16:09:43Z" finished-at="2018-06-02T16:09:44Z">
+        <test-method status="FAIL" signature="checkDeletedRecord()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkDeletedRecord" duration-ms="1582" started-at="2018-06-02T16:33:16Z" finished-at="2018-06-02T16:33:17Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -96,19 +96,11 @@ Expected status code <404> but was <200>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeletedRecord -->
-        <test-method status="PASS" signature="checkPartialUpdate()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPartialUpdate" duration-ms="832" started-at="2018-06-02T16:09:44Z" finished-at="2018-06-02T16:09:45Z">
+        <test-method status="PASS" signature="checkPartialUpdate()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPartialUpdate" duration-ms="833" started-at="2018-06-02T16:33:17Z" finished-at="2018-06-02T16:33:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPartialUpdate -->
-        <test-method status="PASS" signature="getAllPosts()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="getAllPosts" duration-ms="315" started-at="2018-06-02T16:09:45Z" finished-at="2018-06-02T16:09:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllPosts -->
-        <test-method status="PASS" signature="updateRecord()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="updateRecord" duration-ms="901" started-at="2018-06-02T16:09:45Z" finished-at="2018-06-02T16:09:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateRecord -->
-        <test-method status="FAIL" signature="createPostWithInvalidJson()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="createPostWithInvalidJson" duration-ms="856" started-at="2018-06-02T16:09:46Z" finished-at="2018-06-02T16:09:47Z">
+        <test-method status="FAIL" signature="createPostWithInvalidJson()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="createPostWithInvalidJson" duration-ms="881" started-at="2018-06-02T16:33:18Z" finished-at="2018-06-02T16:33:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -172,7 +164,15 @@ Expected status code <400> but was <201>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPostWithInvalidJson -->
-        <test-method status="FAIL" signature="checkCreatedRecordIfPresent()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkCreatedRecordIfPresent" duration-ms="1287" started-at="2018-06-02T16:09:47Z" depends-on-methods="com.api.tests.PostsResourceTests.checkCreatePost" finished-at="2018-06-02T16:09:48Z">
+        <test-method status="PASS" signature="getAllPosts()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="getAllPosts" duration-ms="319" started-at="2018-06-02T16:33:19Z" finished-at="2018-06-02T16:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPosts -->
+        <test-method status="PASS" signature="updateRecord()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="updateRecord" duration-ms="844" started-at="2018-06-02T16:33:19Z" finished-at="2018-06-02T16:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRecord -->
+        <test-method status="FAIL" signature="checkCreatedRecordIfPresent()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkCreatedRecordIfPresent" duration-ms="1730" started-at="2018-06-02T16:33:20Z" depends-on-methods="com.api.tests.PostsResourceTests.checkCreatePost" finished-at="2018-06-02T16:33:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -215,7 +215,7 @@ Expected status code <400> but was <201>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCreatedRecordIfPresent -->
-        <test-method status="FAIL" signature="checkPartiallyUpdatedData()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPartiallyUpdatedData" duration-ms="846" started-at="2018-06-02T16:09:48Z" depends-on-methods="com.api.tests.PostsResourceTests.checkPartialUpdate" finished-at="2018-06-02T16:09:49Z">
+        <test-method status="FAIL" signature="checkPartiallyUpdatedData()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPartiallyUpdatedData" duration-ms="825" started-at="2018-06-02T16:33:22Z" depends-on-methods="com.api.tests.PostsResourceTests.checkPartialUpdate" finished-at="2018-06-02T16:33:23Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [0] but found [1]]]>
@@ -258,27 +258,27 @@ Expected status code <400> but was <201>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPartiallyUpdatedData -->
-        <test-method status="PASS" signature="checkGetAllPostsCount()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkGetAllPostsCount" duration-ms="300" started-at="2018-06-02T16:09:49Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:09:49Z">
+        <test-method status="PASS" signature="checkGetAllPostsCount()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkGetAllPostsCount" duration-ms="302" started-at="2018-06-02T16:33:23Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:33:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGetAllPostsCount -->
-        <test-method status="PASS" signature="checkGetInvalidPost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkGetInvalidPost" duration-ms="837" started-at="2018-06-02T16:09:49Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:09:50Z">
+        <test-method status="PASS" signature="checkGetInvalidPost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkGetInvalidPost" duration-ms="814" started-at="2018-06-02T16:33:23Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:33:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGetInvalidPost -->
-        <test-method status="PASS" signature="checkGetValidPost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkGetValidPost" duration-ms="316" started-at="2018-06-02T16:09:50Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:09:51Z">
+        <test-method status="PASS" signature="checkGetValidPost()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkGetValidPost" duration-ms="377" started-at="2018-06-02T16:33:24Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:33:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGetValidPost -->
-        <test-method status="PASS" signature="checkPostsWithMultipleQueryParameters()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPostsWithMultipleQueryParameters" duration-ms="301" started-at="2018-06-02T16:09:51Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:09:51Z">
+        <test-method status="PASS" signature="checkPostsWithMultipleQueryParameters()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPostsWithMultipleQueryParameters" duration-ms="316" started-at="2018-06-02T16:33:24Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:33:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPostsWithMultipleQueryParameters -->
-        <test-method status="PASS" signature="checkPostsWithQueryParameters()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPostsWithQueryParameters" duration-ms="348" started-at="2018-06-02T16:09:51Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:09:51Z">
+        <test-method status="PASS" signature="checkPostsWithQueryParameters()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkPostsWithQueryParameters" duration-ms="352" started-at="2018-06-02T16:33:25Z" depends-on-methods="com.api.tests.PostsResourceTests.getAllPosts" finished-at="2018-06-02T16:33:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPostsWithQueryParameters -->
-        <test-method status="FAIL" signature="checkUpdatedRecord()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkUpdatedRecord" duration-ms="1185" started-at="2018-06-02T16:09:51Z" depends-on-methods="com.api.tests.PostsResourceTests.updateRecord" finished-at="2018-06-02T16:09:52Z">
+        <test-method status="FAIL" signature="checkUpdatedRecord()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="checkUpdatedRecord" duration-ms="1747" started-at="2018-06-02T16:33:25Z" depends-on-methods="com.api.tests.PostsResourceTests.updateRecord" finished-at="2018-06-02T16:33:27Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Updated Title] but found [qui est esse]]]>
@@ -321,7 +321,7 @@ Expected status code <400> but was <201>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUpdatedRecord -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="teardown" is-config="true" duration-ms="0" started-at="2018-06-02T16:09:53Z" finished-at="2018-06-02T16:09:53Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.api.tests.PostsResourceTests@215be6bb]" name="teardown" is-config="true" duration-ms="0" started-at="2018-06-02T16:33:27Z" finished-at="2018-06-02T16:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
