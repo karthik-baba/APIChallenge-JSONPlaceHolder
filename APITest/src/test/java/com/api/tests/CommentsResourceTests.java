@@ -13,7 +13,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-public class CommentsResourceTests extends TestConfig {
+public class CommentsResourceTests {
 	public static final String RESOURCE_UNDERTEST="comments";
 	private RequestSpecification spec;
 

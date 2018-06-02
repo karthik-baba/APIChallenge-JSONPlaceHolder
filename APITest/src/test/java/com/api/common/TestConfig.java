@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.springframework.util.ResourceUtils;
-import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;

@@ -4,7 +4,7 @@
 	<test name="PostResourceTests">
 		<classes>
 			<class name="com.api.common.TestConfig" />
-			<class name="com.api.tests.PostResourceTests" />
+			<class name="com.api.tests.PostsResourceTests" />
 		</classes>
 	</test>
 

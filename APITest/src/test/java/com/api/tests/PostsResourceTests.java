@@ -17,7 +17,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-public class PostsResourceTests extends TestConfig {
+public class PostsResourceTests {
 	public static final String RESOURCE_UNDERTEST="posts";
 	private RequestSpecification spec;
 
@@ -193,7 +193,6 @@ public class PostsResourceTests extends TestConfig {
 			request().
 			post(RESOURCE_UNDERTEST).as(PostPojo.class);
 		
-		System.out.println(respObj);
 		
 		Assert.assertEquals(respObj.getBody(), postObj.getBody());
 		Assert.assertEquals(respObj.getTitle(), postObj.getTitle());
@@ -342,7 +341,6 @@ public class PostsResourceTests extends TestConfig {
 			request().
 			patch(RESOURCE_UNDERTEST+"/1").as(PostPojo.class);
 		
-		System.out.println(patchRespObj);
 		Assert.assertEquals(patchRespObj.getTitle(), patchObj.getTitle());
 		Assert.assertEquals(patchRespObj.getId(), patchObj.getId());
 		
